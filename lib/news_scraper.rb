@@ -7,7 +7,7 @@ class News_scraper::Scp_Scraper
       name = news.css("h3").text
       body = news.cc("StoryBody__root--2VihO").text
       hidden = news.cc("StoryBody__paragraph--2-Doz").text
-      News_Scraper.new(name, body, hidden)
+      News_scraper.new(name, body, hidden)
     end
   end
 end
