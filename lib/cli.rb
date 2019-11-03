@@ -4,7 +4,7 @@ require 'open-uri'
 class cli
 
   def call 
-    Scp_scraper.scrape
+    News_scraper.scrape
     opener
     
   end
