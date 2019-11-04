@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/cli_proj_ws
+
+cli_proj_ws::CLI.new.call
