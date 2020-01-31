@@ -1,6 +1,6 @@
 
 
-class News 
+class News_Scrape::news 
   
   attr_accessor :name, :body, :hidden 
   
